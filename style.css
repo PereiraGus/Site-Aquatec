@@ -92,11 +92,23 @@ span{
 
 .footer{
     width: 100%;
+    padding: 20px 0;
     background-color: #32B0CD;
     color: white;
     display: flex;
 }
 
 .footer .container{
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .container span{
+    font-weight:600;
+    margin-top: 25px;
+}
+
+.footer .container p{
+    font-size: 12px;
+    margin: 10px 0;
 }
