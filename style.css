@@ -14,7 +14,7 @@ body{
     border-bottom: solid #32B0CD;
 }
 
-h1{
+.header h1{
     color: #32B0CD;
 }
 
@@ -56,7 +56,7 @@ li, a{
     height: 100%;
 }
 
-.banner dp{
+.banner p{
     width: 250px;
     font-size: 40px;
 }
@@ -67,6 +67,7 @@ span{
 
 .social .container{
     justify-content: space-around;
+    padding: 10px;
 }
 
 .social .container img{
@@ -75,10 +76,27 @@ span{
 }
 
 .container .card{
-    background-color: #CDCDCD;
+    background-color: #cca468;
     border-radius: 10px;
     width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 5px;
+    margin: 0px 10px;
+}
+
+.card h1{
+    color: rgb(110, 16, 44);
+}
+
+.footer{
+    width: 100%;
+    background-color: #32B0CD;
+    color: white;
+    display: flex;
+}
+
+.footer .container{
+    justify-content: center;
 }
